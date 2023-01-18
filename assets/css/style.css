@@ -11,9 +11,6 @@ body {
     overflow-x: hidden;
 
 }
-.container-fluid{
-    text-align: center;
-}
 .card {
     width: 30em;
 }
