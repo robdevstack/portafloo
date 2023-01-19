@@ -11,6 +11,28 @@ body {
     overflow-x: hidden;
 
 }
+main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 680px;
+}
+.presentacion h1{
+    font-size: 70px;
+}
+
+.presentacion h2 {
+    font-size: 40px;
+    color: aliceblue;
+}
+
+
+
+.imagen img {
+    width: 450px;
+    height: 450px;
+}
+
 .card {
     width: 30em;
 }
