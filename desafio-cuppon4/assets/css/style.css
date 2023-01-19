@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.logo1 img {
+    width: 100px;
+}
+.titulo {
+    font-weight: 300;
+}.marca {
+    font-weight: 300;
+}
+.direccion {
+    font-size: 14px;
+}
+.location p{
+    display: inline-block;
+    font-weight: 300;
+}
+.borde {
+    border-bottom: 1px solid rgb(211, 206, 206);
+}
+.precios{
+    text-align: end;
+}
+.precio-antes{
+    display: inline-block;
+    font-size: 12px;
+    margin-right: 1em;
+    
+}
+.precio-oferta{
+    display: inline-block;
+    font-weight: 500;
+}
+section p {
+    text-align: center;
+    font-weight: 500;
+}
+.button {
+    text-align: center;
+}
+.button span{
+    font-weight: 500;
+}
+.logo2 {
+    text-align: center;
+}
+.logo2 img{
+    width: 80px;
+}
