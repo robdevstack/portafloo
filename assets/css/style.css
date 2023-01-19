@@ -33,7 +33,8 @@ body {
 .btn a {
     text-decoration: none;
     background-color: #0d6efd;
-    color: aliceblue;
+    color: rgb(254, 240, 255);
+    
 }
 .btn a:hover {
     background-color: #b50bd7;
