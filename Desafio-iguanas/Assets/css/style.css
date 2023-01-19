@@ -1,0 +1,154 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: #000000;
+}
+body h1, h2, p {
+    font-family: 'Raleway', sans-serif;
+}
+
+.header{
+    height: 73px;
+    text-align: center;
+    max-width: 1280px;
+}
+.header h1 {
+    font-size: 50px;
+    font-weight: 400;
+    padding-top: 10px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.section1 img {
+    width: 100%;
+}
+.section2 {
+    height: 348px;
+    text-align: center;
+
+}
+@media (max-width:600px){
+    .section2 {
+        height: 600px;
+    }
+}
+.section2 p {
+    display: inline-block;
+    width: 475px;
+    height: 197px;
+    text-align: left;
+    color: #ffffff;
+    margin-right: 106px;
+    font-size: 16px;
+    font-weight: 300;
+    
+}
+@media (max-width:600px){
+    .section2 p{
+    width: 400px;
+    height: 100px;
+    text-align: left;
+    color: #ffffff;
+    margin: 50px 50px;
+    font-size: 16px;
+    font-weight: 300;
+    }
+}
+.section2 img{
+    margin-top: 45px;
+    width: 399px;
+    height: 237px;
+
+}
+@media (max-width:600px){
+    .section2 img{
+    margin-top: 5em;
+    width: 300px;
+    height: 180px;
+    }
+}
+.caracteristicas {
+    background-color: #1E1A13;
+    height:348px;
+    padding-top: 18px;
+    text-align: center;
+}
+@media (max-width:600px){
+    .caracteristicas {
+        background-color: #1E1A13;
+        height:800px;
+        padding-top: 18px;
+        text-align: center;
+    }
+}
+.caracteristicas h1 {
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-top: 75px ;
+
+}
+.container-caract {
+    margin-left: 65px;
+}
+@media (max-width:600px){
+    .container-caract {
+        margin:auto
+    }
+}
+.caract {
+    display: inline-block;
+    margin: 80px;
+    margin-top: 60px;
+    color: #ffffff;
+}
+.caract h2{
+    margin-top: 10px;
+    font-weight: 300;
+    font-size: 25px;
+}
+.imagenes {
+    height: 348px;
+    text-align: center;
+}
+@media (max-width:600px){
+    .imagenes {
+    height: 900px;
+    text-align: center;
+    
+    }
+}
+
+.imagenes img {
+    width: 316px;
+    height: 202px;
+    margin: 73px 16px ;
+}
+@media (max-width:600px){
+    .imagenes img {
+        width: 316px;
+        height: 202px;
+        margin: 44px 8px ;
+    }
+}
+.footer {
+    background-color: #1E1A13;
+    height: 102px;
+    text-align: center;
+}
+@media (max-width:600px){
+    .footer {
+        background-color: #1E1A13;
+        height: 150px;
+        text-align: center;
+    }
+}
+.footer p {
+    font-size: 20px;
+    color: #ffffff;
+    padding: 39px 39px;
+}
